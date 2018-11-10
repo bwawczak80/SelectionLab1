@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SelectionLab1</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="loginHint">Enter User Name</string>
+    <string name="passwordHint">Enter Your Password</string>
+    <string name="loginbuttontxt">Login</string>
+    <string name="errorMsgLogin">You entered an invalid login.  Please try again.</string>
+    <string name="errorMsgPW">You entered an invalid password.  Please try again.</string>
+</resources>
