@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">SelectionLab1</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
@@ -7,4 +8,39 @@
     <string name="loginbuttontxt">Login</string>
     <string name="errorMsgLogin">You entered an invalid login.  Please try again.</string>
     <string name="errorMsgPW">You entered an invalid password.  Please try again.</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="dob">Date of Birth</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="major">Major</string>
+    <string name="next">Next</string>
+    <string name="txtMonth">Month</string>
+    <string name="cert">Certificate</string>
+    <string name="associates">Associates</string>
+    <string-array name="month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="lstCertificate">
+        <item>Android Certificate</item>
+        <item>iOS Mobile Certificate</item>
+    </string-array>
+    <string-array name="lstMajor">
+        <item>Digital Media</item>
+        <item>Mobile Application Development</item>
+        <item>Web Development</item>
+    </string-array>
+
 </resources>

@@ -1,5 +1,6 @@
 package com.example.brianwawczak.selectionlab1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                         txtPass.requestFocus();
                         break;
                     default:
+                        startActivity(new Intent(MainActivity.this, MainClassList.class));
                         toastError.makeText(getApplicationContext(), "success", toastError.LENGTH_LONG).show();
                         break;
                 }
