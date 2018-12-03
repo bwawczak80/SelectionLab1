@@ -76,7 +76,7 @@ public class MainClassList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (checkData()) {
-                    String dateOfBirth = "";
+                    String dateOfBirth;
                     dateOfBirth = dateSpinner.getSelectedItem().toString() + "/" + dayTxt.getText().toString() + "/" + yearTxt.getText().toString();
 
                     Intent nextScreen = new Intent(MainClassList.this, ChooseClass.class);
@@ -84,7 +84,7 @@ public class MainClassList extends AppCompatActivity {
 
                     nextScreen.putExtra("LastName", lastNameTxt.getText().toString());
 
-                    nextScreen.putExtra( "phone", phoneTxt.getText().toString());
+                    nextScreen.putExtra( "Phone", phoneTxt.getText().toString());
 
                     nextScreen.putExtra("BirthDate", dateOfBirth);
 

@@ -20,7 +20,7 @@
     <string name="cert">Certificate</string>
     <string name="associates">Associates</string>
     <string name="btnNext">Next</string>
-    
+
     <string name="sectionClass">Select your class and time slot:</string>
     <string name="class1">MAD-107: iOS I</string>
     <string name="class2">MAD-155: Android II</string>

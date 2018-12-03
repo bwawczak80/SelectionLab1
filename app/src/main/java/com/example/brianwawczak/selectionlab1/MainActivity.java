@@ -1,14 +1,12 @@
 package com.example.brianwawczak.selectionlab1;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     public enum LoginSuccess {
@@ -38,21 +36,20 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast toastError = null;
 
                 switch(CheckLogin(txtLogin.getText().toString(), txtPass.getText().toString())){
                     case login:
-                        toastError.makeText(getApplicationContext(),getString(R.string.errorMsgLogin), toastError.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),getString(R.string.errorMsgLogin), Toast.LENGTH_LONG).show();
                         txtLogin.requestFocus();
                         break;
 
                     case password:
-                        toastError.makeText(getApplicationContext(), getString(R.string.errorMsgPW), toastError.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), getString(R.string.errorMsgPW), Toast.LENGTH_LONG).show();
                         txtPass.requestFocus();
                         break;
                     default:
                         startActivity(new Intent(MainActivity.this, MainClassList.class));
-                        toastError.makeText(getApplicationContext(), "success", toastError.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "success", Toast.LENGTH_LONG).show();
                         break;
                 }
             }

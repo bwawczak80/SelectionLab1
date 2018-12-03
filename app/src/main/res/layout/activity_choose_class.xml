@@ -13,8 +13,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
         android:text="@string/class4"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
 
@@ -24,6 +27,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ctv4">
 
@@ -32,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb2" />
 
         <RadioButton
@@ -39,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb5" />
     </RadioGroup>
 
@@ -50,9 +57,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
         android:text="@string/class3"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
@@ -62,6 +71,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ctv3">
 
@@ -70,6 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb5" />
 
         <RadioButton
@@ -77,6 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb6" />
     </RadioGroup>
 
@@ -87,8 +100,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
         android:text="@string/class2"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
@@ -98,6 +114,8 @@
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ctv2">
 
@@ -106,6 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb3" />
 
         <RadioButton
@@ -113,6 +132,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb4" />
     </RadioGroup>
 
@@ -126,18 +146,22 @@
         android:text="@string/sectionClass"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <CheckedTextView
         android:id="@+id/ctv1"
-        android:layout_width="369dp"
+        android:layout_width="360dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:checkMark="?android:attr/textCheckMark"
+        android:checked="false"
         android:text="@string/class1"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -146,6 +170,8 @@
         android:layout_width="336dp"
         android:layout_height="40dp"
         android:layout_marginStart="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ctv1">
 
@@ -154,6 +180,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb1" />
 
         <RadioButton
@@ -161,6 +188,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:enabled="false"
             android:text="@string/timeRb2" />
     </RadioGroup>
 
